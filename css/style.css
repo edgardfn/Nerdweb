@@ -451,6 +451,84 @@ header {
 
     /*  */
 
+    /* RODAPÉ : */
+        footer {
+            height: 466px;
+            background-color: #283137;
+            border-top: 5px solid #0089BC;
+            padding: 0 12%;
+            display: grid;
+            grid-template-rows: 66% 34%;
+        }
+        .footer-main {
+            display: grid;
+            grid-template-columns: 37.5% 12.5% 12.5% 12.5% 25%;
+            padding-top: 50px;
+        }
+        .image-logo {
+            width: 20%;
+        }
+        .container-footer-main-nerdweb-list {
+            margin-top: 20px;
+        }
+        .container-footer-main-nerdweb-title {
+            color: #E2F7FF;
+            font-size: 18px;
+        }
+        .list-main-nerdweb {
+            list-style: none;
+            color: #00AEEF;
+            font-size: 14px;
+        }
+        .item-list-main {
+            padding: 10px 0;
+            cursor: pointer;
+        }
+        .item-list-main:hover {
+            color: #B2EAFF;
+        }
+        .container-footer-main-nerdweb-text {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #B2EAFF;
+        }
+        .container-footer-main-nerdweb-text:hover {
+            color: #00AEEF;
+        }
+        .container-footer-secondary {
+            border-top: 2px solid #E1E1E1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .container-footer-secondary-text{
+            margin-top: 20px;
+            color: #E1E1E1;
+            font-size: 14px;
+        }
+        .container-footer-secondary-socialmedia {
+            padding-right: 32px;
+            width: max-content; 
+            margin-left: auto;
+        }
+        .container-footer-secondary-socialmedia-text {
+            color: #71D8FF;
+            font-size: 20px;
+            margin-top: 20px;
+            /* text-align: end; */
+        }
+        .container-footer-secondary-socialmedia-icons {
+            /* text-align: end; */
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .icon-socialmedia {
+            color: #71D8FF;
+            font-size: 30px;
+        }
+
+    /*  */
+
 
     p {
         font-size: 2rem;
