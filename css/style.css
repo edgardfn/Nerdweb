@@ -24,6 +24,10 @@ header {
     opacity: 1;
 }
 
+button:hover {
+    background-color: var(--secondarycolor);
+}
+
 /* MAIN */
 
     /* CONTAINER DE SERVICOS: */
@@ -313,6 +317,9 @@ header {
             font-size: 14px;
             cursor: pointer;
         }
+        .card-service-selection-know:hover {
+            color: #E1E1E1;
+        }
 
     /*  */
 
@@ -525,6 +532,12 @@ header {
         .icon-socialmedia {
             color: #71D8FF;
             font-size: 30px;
+        }
+        .icon-socialmedia:hover {
+            color: #E1E1E1;
+        }
+        .icon-socialmedia: {
+            color: #E1E1E1;
         }
 
     /*  */
