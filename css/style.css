@@ -401,6 +401,56 @@ header {
 
     /*  */
 
+    /* CONTAINER NOVIDADES E DESCONTOS ESPECIAIS: */
+        .container-news-texts {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .container-news {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            background-color: #F3F3F3;
+            height: 260px;
+            margin-top: 80px;
+            padding: 2% 6%;
+        }
+        .container-news-register {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .input-register {
+            height: 44px;
+            border: 1px solid #005271;
+            color: #005271;
+            padding: 0 24px;
+        }
+        .button-register-news {
+            text-transform: uppercase;
+            font-family: 'Roboto Slab', serif;
+            background-color: #71D8FF;
+            border: none;
+            /* padding: 8px 32px; */
+            cursor: pointer;
+            height: 45px;
+            width: 135px;
+        }
+        .container-news-texts-title {
+            font-size: 32px;
+            color: #033244;
+            width: calc(100% - 12%);
+        }
+        .container-news-texts-description {
+            color: #0089BC;
+            font-size: 20px;
+            width: calc(100% - 12%);
+        }
+
+    /*  */
+
 
     p {
         font-size: 2rem;
