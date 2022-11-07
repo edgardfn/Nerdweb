@@ -7,20 +7,140 @@
         <link rel="stylesheet" href="/css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/all.min.css">
+        <link href="https://fonts.cdnfonts.com/css/archer-book" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap" rel="stylesheet">
         <title>Nerdweb</title>
     </head>
     <body>
         <header>
+            <div class="container-header-left">
+                <div class="container-header-left-logo">
+                    <img class="logo-header" src="/images/logo@2x.png" alt="logo-header-nerdweb">
+                </div>
+                <div class="container-header-left-menu">
+                    <ul class="list-menu-header">
+                        <li class="list-menu-header-item">
+                            <a href="#about">Nerdweb</a>
+                        </li>
+                        <li class="list-menu-header-item">
+                            <a href="#services">Serviços</a>
+                        </li>
+                        <li class="list-menu-header-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="list-menu-header-item">
+                            <a href="#footer">Atendimento</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-header-right">
+                <div class="container-header-right-day-to-day">
+                    <div class="container-header-right-day-to-day-text">
+                        DIA A DIA
+                    </div>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="container-header-right-day-to-day-icons">
+                    <img class="imagem-user-icon" src="/images/account_circle_black_24dp@2x.png" alt="image-userlogo" >
+                    <img class="image-cart-icon" src="/images/shopping_cart_black_24dp@2x.png" alt="image-cart">
+                </div>
+            </div>
             
         </header>
         <div class="container-menu">
-
+            <div class="container-menu-items">
+                <div class="container-menu-items-sites" onclick="clickSites()">
+                    <div class="container-menu-items-sites-text">
+                        SITES
+                    </div>
+                    <i id="icon-sites" class="fa-solid fa-caret-down icon-down-click"></i>
+                </div>
+                <div class="container-menu-items-social-network">
+                    REDES SOCIAIS
+                </div>
+                <div class="container-menu-items-ecommerce">
+                    E-COMMERCE
+                </div>
+                <div class="container-menu-items-online-midia">
+                    MÍDIA ONLINE
+                </div>
+                <div class="container-menu-items-landing-pages">
+                    LANDING PAGES
+                </div>
+            </div>
+            <div class="container-menu-search">
+                <div class="container-menu-search-items">
+                    <input class="input-search" type="text" name="input-search" value="Digite sua pesquisa">
+                    <div class="container-icon-search">
+                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container-banner">
-            
+            <div class="container-banner-submenu" id="container-submenu">
+               <div class="content-submenu">
+                <div class="content-submenu-item">
+                    <div class="content-submenu-item-title">
+                        Soluções</br>
+                        Site
+                    </div>
+                    <div class="content-submenu-item-list">
+                        <ul class="list-submenu">
+                            <li class="item-submenu">Briefing</li>
+                            <li class="item-submenu">Pesquisa</li>
+                            <li class="item-submenu">Criação</li>
+                            <li class="item-submenu">Veiculação</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-submenu-item">
+                    <div class="content-submenu-item-title">
+                        Soluções por</br>
+                        E-commerce
+                    </div>
+                    <div class="content-submenu-item-list">
+                        <ul class="list-submenu">
+                            <li class="item-submenu-light">Lorem</li>
+                            <li class="item-submenu-light">Ipsum</li>
+                            <li class="item-submenu-light">Dolor</li>
+                            <li class="item-submenu-light">Google ads</li>
+                            <li class="item-submenu-light">Análise de mercado</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-submenu-item">
+                    <div class="content-submenu-item-title">
+                        Soluções por</br>
+                        Redes Sociais
+                    </div>
+                    <div class="content-submenu-item-list">
+                        <ul class="list-submenu">
+                            <li class="item-submenu-light">Briefing</li>
+                            <li class="item-submenu-light">Pesquisa</li>
+                            <li class="item-submenu-light">Criação</li>
+                            <li class="item-submenu-light">Veiculação</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-submenu-item">
+                    <div class="content-submenu-item-title">
+                        Soluções por</br>
+                        Landing Page
+                    </div>
+                    <div class="content-submenu-item-list">
+                        <ul class="list-submenu">
+                            <li class="item-submenu-light">Conteúdo</li>
+                            <li class="item-submenu-light">Relatórios</li>
+                        </ul>
+                    </div>
+                </div>
+               </div> 
+            </div>
         </div>
         <main>
-            <div class="container-findout">
+            <div class="container-findout" id="services">
                 <div class="container-findoutheader">
                     <div class="click-left">
                         <i class="fa-solid fa-angle-left"></i>
@@ -254,7 +374,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-about">
+            <div class="container-about" id="about">
                 <div class="container-about-texts">
                     <div class="container-about-title">
                         Conheça a visão Nerdweb e entenda nossa história
@@ -306,7 +426,7 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="footer-main">
                 <div class="container-footer-main-logo">
                     <img class="image-logo" src="/images/Grupo 549@2x.png" alt="logo-nerdweb">

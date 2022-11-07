@@ -13,16 +13,222 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-header {
-    height: 05vh;
+a {
+    text-decoration: none;
+    color: #2C3A2F;
+}
+a:visited {
+    color: var(--secondarycolor);
+}
+a:hover {
+    color: var(--secondarycolor);
 }
 
-.container-menu {
-    border-top: 3px solid #71D8FF;
-    height: 06vh;
-    background-color: var(--maincolor);
-    opacity: 1;
-}
+/* HEADER: */
+
+    header {
+        height: 06vh;
+        padding: 0 12%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-header-left, .container-header-left-logo {
+        height: 100%;
+    }
+    .container-header-left {
+        display: flex;
+        height: 100%;
+    }
+    .container-header-left-logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .logo-header {
+        width: 110px;
+    }
+    .list-menu-header {
+        display: flex;
+        list-style: none;
+    }
+    .list-menu-header-item {
+        padding: 0 16px;
+        font-size: 14px;
+        font-family: 'Archer Book', sans-serif;
+        cursor: pointer;
+    }
+    .list-menu-header-item:hover {
+        color: var(--secondarycolor);
+    }
+    .container-header-left-menu {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .container-header-right {
+        display: flex;
+        height: 100%;
+        margin-left: auto;
+    }
+    .container-header-right-day-to-day{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .container-header-right-day-to-day-text {
+        font-size: 12px;
+        font-family: 'Archer Book', sans-serif;
+        margin-right: 13px;
+    }
+    .container-header-right-day-to-day-icons {
+       display: flex;
+       align-items: center;
+       height: 100%;
+       /* width: max-content; */
+    }
+    .imagem-user-icon {
+        margin-right: 30px;
+    }
+    .imagem-user-icon, .image-cart-icon {
+        /* height: 32px;
+        width: 32px; */
+        height: 60%;
+        cursor: pointer;
+    }
+    
+/*  */
+
+/* CONTAINER IMAGEM : */
+    #container-submenu {
+        /* padding: 0 12%;
+        height: 40%;
+        width: 100%; */
+        margin: 0 12%;
+        height: 42%;
+        display: none;
+    }
+    .content-submenu {
+        border-top: 4px solid var(--secondarycolor);
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 2% 13% 0 13%;
+    }
+    .content-submenu-item-title {
+        color: #005271;
+        font-size: 18px;
+        font-family: 'Sora', sans-serif;
+        padding-bottom: 12px;
+    }
+    .content-submenu-item-list {
+        padding-top: 12px;
+        border-top: 1px solid #6a706b;
+        width: max-content;
+    }
+    .list-submenu {
+        list-style: none;
+    }
+    .item-submenu {
+        padding-top: 12px;
+        padding: 5px 0;
+        font-family: 'Sora', sans-serif;
+        font-size: 14px;
+    }
+    .item-submenu-light {
+        padding-top: 12px;
+        padding: 5px 0;
+        font-family: 'Sora', sans-serif;
+        font-size: 14px;
+        color: #6a706b;
+    }
+    
+
+/*  */
+
+/* MENU SUPERIOR ACIMA DA IMAGEM: */
+
+    .container-menu {
+        border-top: 3px solid #71D8FF;
+        height: 06vh;
+        background-color: var(--maincolor);
+        opacity: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 12%;
+    }
+    .container-menu-items {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .container-menu-items-sites {
+        display: flex;
+        align-items: center;
+        margin-right: 41px;
+        height: 100%;
+    }
+    .container-menu-items-sites-text {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'Archer Book', sans-serif;
+        margin-right: 9px;
+        cursor: pointer;
+    }
+    
+    .icon-down-click {
+        color: #FFFFFF;
+        margin: 0;
+        padding-bottom: 3px;
+        cursor: pointer;
+    }
+   
+    .container-menu-items {
+        display: flex;
+        align-items: center;
+    }
+    .container-menu-items-social-network, .container-menu-items-ecommerce, .container-menu-items-online-midia, .container-menu-items-landing-pages {
+        color: #FFFFFF;
+        font-family: 'Archer Book', sans-serif;
+        font-size: 14px;
+        margin-right: 33px;
+    }
+    .container-menu-search {
+        display: flex;
+        align-items: center;
+    }
+    .container-menu-search-items {
+        margin-left: auto;
+        border: 1px solid #00AEEF;
+        background-color: transparent;
+        height: 70%;
+        border-radius: 8px;
+        width: 240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .input-search {
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        padding-left: 15px;
+        color: #B2EAFF;
+    }
+    .container-icon-search {
+        padding-right: 4px;
+    }
+    .icon-search {
+        margin-left: auto;
+        color: #E2F7FF;
+        height: 90%;
+        margin: auto;
+        cursor: pointer;
+    }
+
+/*  */
 
 button:hover {
     background-color: var(--secondarycolor);
@@ -136,7 +342,7 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
     .container-banner {
-        height: 60vh; 
+        height: 65vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -534,9 +740,6 @@ button:hover {
             font-size: 30px;
         }
         .icon-socialmedia:hover {
-            color: #E1E1E1;
-        }
-        .icon-socialmedia: {
             color: #E1E1E1;
         }
 
