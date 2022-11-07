@@ -15,3 +15,4 @@ function clickSites () {
         icon.classList.add('fa-caret-down');
     }
 }
+

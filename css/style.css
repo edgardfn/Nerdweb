@@ -280,9 +280,10 @@ button:hover {
             border-top-left-radius: 50px;
         }
         .container-findout-services{
-            display: flex;
-            flex-direction: row;
-            padding-left: 32px;
+            width: 100%;
+            /* display: flex;
+            flex-direction: row; */
+            /* padding-left: 32px; */
         }
         .click-left{
             color: #005271;
@@ -304,7 +305,7 @@ button:hover {
             height: max-content;
         }
         .container-findoutheader{
-            padding-left: calc(30% + 15px + 18px);
+            padding-left: calc(40% + 15px + 18px);
             display: flex;
             flex-direction: row;
             
@@ -335,6 +336,14 @@ button:hover {
                 width: 80%;
             }
         /*  */
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-services {
+            width: 100%;
+            /* height: 100%; */
+        }
     /*  */
 
 /*  */
@@ -360,7 +369,7 @@ button:hover {
             height: 300px;
             display: grid;
             /* grid-template-columns: 30% 70%; */
-            grid-template-columns: 30% 70%;
+            grid-template-columns: 40% 60%;
         }
         .container-findout {
             display: grid;
@@ -385,16 +394,25 @@ button:hover {
             /* overflow-x: scroll;
             white-space:nowrap; */
         }
+        .swiper {
+            /* height: 100%; */
+            /* width: 100%; */
+        }
+        .swiper-scrollbar-drag {
+            /* color: #0089BC; */
+            background: #0089BC !important;
+            /* background-color: #0089BC; */
+        }
         .card-product{
-            width: 122px;
-            height: 80%;
+            /* width: 122px;
+            height: 80%; */
             background-color: #e8e8e8;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
             /* margin: 0 16px; */
-            margin-right: 16px;
+            /* margin-right: 16px; */
         }
         .card-product:first-child {
             margin: 0 16px;
